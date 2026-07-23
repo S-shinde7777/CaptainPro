@@ -1,9 +1,10 @@
 import React from 'react'
+import LandingPage from './pages/LandingPage'
 
 const App = () => {
-  return (
-    <div className='text-center bg-green-300'>CaptainPro</div>
-  )
+  return <>
+  <LandingPage/>
+  </>
 }
 
 export default App
