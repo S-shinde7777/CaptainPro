@@ -1,10 +1,11 @@
-import React from 'react'
-import LandingPage from './pages/LandingPage'
+import Navbar from "./components/Navbar";
 
-const App = () => {
-  return <>
-  <LandingPage/>
-  </>
+function App() {
+  return (
+    <>
+      <Navbar />
+    </>
+  );
 }
 
-export default App
+export default App;

@@ -1,6 +1,6 @@
 import "./Navbar.css"
 
-function navbar(){
+function Navbar(){
     return(
         <nav ClassName="Navbar">
 
