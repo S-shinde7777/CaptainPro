@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <nav className="sticky top-0 z-50 bg-white shadow-md">
@@ -15,14 +16,19 @@ function Navbar() {
         </ul>
 
         <div className="flex gap-3">
+          <Link to="/login">
           <button className="rounded-lg border border-blue-600 px-5 py-2 text-blue-600 transition hover:bg-blue-600 hover:text-white">
             Login
           </button>
+          </Link>
 
+          <Link to="/register">
           <button className="rounded-lg bg-blue-600 px-5 py-2 text-white transition hover:bg-blue-700">
             Register
           </button>
+          </Link>
         </div>
+        
 
       </div>
     </nav>
