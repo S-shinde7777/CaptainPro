@@ -19,7 +19,7 @@ function Footer() {
           <div>
 
             <h1 className="text-4xl font-bold">
-              Captain<span className="text-orange-500">Pro</span>
+              Captain<span className="text-orange-500 font-medium">Pro</span>
             </h1>
 
             <p className="mt-5 text-gray-300">
