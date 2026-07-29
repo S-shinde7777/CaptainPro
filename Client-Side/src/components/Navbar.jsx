@@ -10,9 +10,9 @@ function Navbar() {
 
         <ul className="hidden gap-8 font-medium text-gray-700 md:flex">
           <li><a href="#" className="hover:text-blue-600">Home</a></li>
-          <li><a href="#" className="hover:text-blue-600">Features</a></li>
-          <li><a href="#" className="hover:text-blue-600">Pricing</a></li>
-          <li><a href="#" className="hover:text-blue-600">Contact</a></li>
+          <li><a href="#features" className="hover:text-blue-600">Features</a></li>
+          <li><a href="#pricing" className="hover:text-blue-600">Pricing</a></li>
+          <li><a href="#footer" className="hover:text-blue-600">Contact</a></li>
         </ul>
 
         <div className="flex gap-3">
