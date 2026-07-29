@@ -39,10 +39,9 @@ function Hero() {
 
         <div className="mt-16 md:mt-0">
 
-          <div className="flex h-[450px] w-[520px] items-center justify-center rounded-3xl bg-white shadow-2xl">
-
+          <div className="flex h-[450px] w-[520px] items-center justify-center rounded-3xl shadow-2xl">
             <span className="text-3xl font-bold text-blue-600">
-              
+              <img src="heroimg.png" alt="img" srcSet="" className="object-cover h-[450px] w-[520px]"/>
             </span>
 
           </div>
