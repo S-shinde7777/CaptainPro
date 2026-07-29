@@ -42,7 +42,7 @@ function Login() {
             </motion.h1>
 
             <motion.img
-              src="/calendar.png"
+              src="/calender.png"
               alt="POS"
               animate={{ y: [0, -15, 0] }}
               transition={{
