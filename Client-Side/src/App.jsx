@@ -8,6 +8,8 @@ import Footer from "./components/Footer";
 
 import Login from "./pages/Login";
 import Register from "./pages/Register";
+import Captain from "./pages/Captain";
+import Menu from "./pages/Menu";
 
 function LandingPage() {
   return (
@@ -30,6 +32,11 @@ function App() {
       <Route path="/login" element={<Login />} />
 
       <Route path="/register" element={<Register />} />
+
+       <Route path="/captain" element={<Captain />} />
+
+       <Route path="/menu/:tableId" element={<Menu />} />
+
 
     </Routes>
   );
