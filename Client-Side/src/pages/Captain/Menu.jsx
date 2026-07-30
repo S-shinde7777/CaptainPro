@@ -34,7 +34,7 @@ function Menu() {
 
   return (
     <div className="min-h-screen bg-[#08111F] text-white">
-
+      <div className="max-w-md mx-auto px-5 pt-6">
       <div className="flex items-center gap-4 p-5">
 
         <button onClick={() => navigate(-1)}>
@@ -47,7 +47,7 @@ function Menu() {
 
       </div>
 
-      <div className="grid grid-cols-2 gap-4 p-5">
+      <div className="grid grid-cols-1 gap-4 p-5">
 
         {menuItems.map((item) => (
 
@@ -79,6 +79,7 @@ function Menu() {
 
         ))}
 
+      </div>
       </div>
 
     </div>
