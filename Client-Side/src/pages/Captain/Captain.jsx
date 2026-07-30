@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
-import CaptainNavbar from "../components/CaptainNavbar";
-import StatusLegend from "../components/StatusLegend";
-import TableCard from "../components/TableCard";
+import CaptainNavbar from "../../components/CaptainNavbar";
+import StatusLegend from "../../components/StatusLegend";
+import TableCard from "../../components/TableCard";
 
 const restaurantTables = [
   { id: 1, status: "available" },

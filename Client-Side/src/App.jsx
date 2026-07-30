@@ -8,8 +8,8 @@ import Footer from "./components/Footer";
 
 import Login from "./pages/Login";
 import Register from "./pages/Register";
-import Captain from "./pages/Captain";
-import Menu from "./pages/Menu";
+import Captain from "./pages/Captain/Captain";
+import Menu from "./pages/Captain/Menu";
 
 function LandingPage() {
   return (
