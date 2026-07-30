@@ -6,25 +6,25 @@ const menuItems = [
     id: 1,
     name: "Veg Biryani",
     price: 250,
-    image: "https://picsum.photos/200?1",
+    
   },
   {
     id: 2,
     name: "Paneer Butter Masala",
     price: 280,
-    image: "https://picsum.photos/200?2",
+    
   },
   {
     id: 3,
     name: "Chicken Biryani",
     price: 320,
-    image: "https://picsum.photos/200?3",
+   
   },
   {
     id: 4,
     name: "Cold Drink",
     price: 60,
-    image: "https://picsum.photos/200?4",
+    
   },
 ];
 
