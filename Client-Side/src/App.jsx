@@ -10,6 +10,8 @@ import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Captain from "./pages/Captain/Captain";
 import Menu from "./pages/Captain/Menu";
+import Orders from "./pages/Captain/Orders";
+import Kot from "./pages/Captain/Kot";
 
 function LandingPage() {
   return (
@@ -36,6 +38,10 @@ function App() {
        <Route path="/captain" element={<Captain />} />
 
        <Route path="/menu/:tableId" element={<Menu />} />
+
+       <Route path="/orders" element={<Orders />} />
+       
+       <Route path="/kots" element={<Kot />} />
 
 
     </Routes>
