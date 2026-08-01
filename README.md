@@ -143,7 +143,7 @@ This project is licensed under the MIT License.
 
 # 👨‍💻 Author
 
-**Sagar**
+**Tushar & Sagar**
 
 Software Developer
 
