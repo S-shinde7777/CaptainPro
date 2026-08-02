@@ -17,6 +17,8 @@ import KitchenHome from "./pages/Kitchen/KitchenHome";
 import KitchenPreparing from "./pages/Kitchen/KitchenPreparing";
 import KitchenReady from "./pages/Kitchen/KitchenReady";
 import KitchenNotification from "./pages/Kitchen/KitchenNotification";
+import Dashboard from "./pages/Admin/Dashboard";
+import PendingBills from "./pages/Admin/PendingBills";
 
 function LandingPage() {
   return (
@@ -57,6 +59,10 @@ function App() {
        <Route path="/kitchen/ready" element={<KitchenReady />}/>
 
        <Route path="/kitchen/notification" element={<KitchenNotification />}/>
+
+       <Route path="/admin/dashboard" element={<Dashboard />} />
+
+       <Route path="/admin/pending-bills" element={<PendingBills />}/>
 
 
     </Routes>
