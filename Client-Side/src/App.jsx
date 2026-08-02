@@ -12,6 +12,11 @@ import Captain from "./pages/Captain/Captain";
 import Menu from "./pages/Captain/Menu";
 import Orders from "./pages/Captain/Orders";
 import Kot from "./pages/Captain/Kot";
+import Notification from "./pages/Captain/Notification";
+import KitchenHome from "./pages/Kitchen/KitchenHome";
+import KitchenPreparing from "./pages/Kitchen/KitchenPreparing";
+import KitchenReady from "./pages/Kitchen/KitchenReady";
+import KitchenNotification from "./pages/Kitchen/KitchenNotification";
 
 function LandingPage() {
   return (
@@ -42,6 +47,16 @@ function App() {
        <Route path="/orders" element={<Orders />} />
        
        <Route path="/kots" element={<Kot />} />
+
+       <Route path="/notifications" element={<Notification />} />
+       
+       <Route path="/kitchen" element={<KitchenHome />} />
+
+       <Route path="/kitchen/preparing" element={<KitchenPreparing />}/>
+
+       <Route path="/kitchen/ready" element={<KitchenReady />}/>
+
+       <Route path="/kitchen/notification" element={<KitchenNotification />}/>
 
 
     </Routes>

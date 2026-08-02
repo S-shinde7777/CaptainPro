@@ -35,11 +35,19 @@ function CaptainNavbar() {
         </div>
 
         {/* Notification */}
-        <button className="relative text-gray-300 hover:text-white transition">
-          <Bell size={20} />
+       <NavLink
+          to="/notifications"
+          className={({ isActive }) =>
+            isActive
+              ? "relative text-orange-500"
+               : "relative text-gray-300 hover:text-white"
+  }
+>
+  <Bell size={20} />
 
-          <span className="absolute -top-1 -right-1 w-2.5 h-2.5 bg-red-500 rounded-full"></span>
-        </button>
+  <span className="absolute -top-1 -right-1 w-2 h-2 bg-red-500 rounded-full"></span>
+
+</NavLink>
 
       </div>
 
