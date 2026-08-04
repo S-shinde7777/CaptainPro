@@ -25,6 +25,9 @@ import SubmitCash from "./pages/Admin/SubmitCash";
 import Users from "./pages/Admin/Users";
 import MasterData from "./pages/Admin/MasterData";
 import Account from "./pages/Admin/Account";
+import Settings from "./pages/Admin/Settings";
+
+
 function LandingPage() {
   return (
     <>
@@ -73,6 +76,7 @@ function App() {
       <Route path="/admin/users" element={<Users />} />
       <Route path="/admin/masterdata" element={<MasterData />} />
       <Route path="/admin/account" element={<Account />} />
+      <Route path="/admin/settings" element={<Settings/>} />
     </Routes>
   );
 }
