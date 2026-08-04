@@ -2,7 +2,6 @@ import React from "react";
 import AdminNavbar from "../../components/Admin/AdminNavbar";
 import AdminSidebar from "../../components/Admin/AdminSidebar";
 
-
 const MasterData = () => {
   return (
     <div className="min-h-screen bg-[#08111F] text-white">

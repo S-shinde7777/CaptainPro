@@ -1,10 +1,7 @@
 import { Database, DollarSign, User, Settings } from "lucide-react";
 import { NavLink } from "react-router-dom";
 
-
-
 function AdminNavbar() {
-
   return (
     <header className="bg-[#1B2340] border-b border-slate-700">
       <div className="max-w-screen-2xl mx-auto px-6 h-20 flex items-center justify-between">
@@ -20,24 +17,24 @@ function AdminNavbar() {
 
         {/* Menu */}
 
-        <div 
-        className="flex items-center gap-12">
-          <NavLink 
-          to="/admin/masterdata"
-          className={({ isActive }) =>
+        <div className="flex items-center gap-12">
+          <NavLink
+            to="/admin/masterdata"
+            className={({ isActive }) =>
               ` flex flex-col items-center ${
                 isActive
                   ? "bg-[#1B2340] text-orange-500"
                   : "text-gray-300 hover:bg-[#1B2340] hover:text-white"
               }`
-            }>
+            }
+          >
             <Database size={26} />
             <span className="text-sm mt-1">Master Data</span>
           </NavLink>
 
           <NavLink
-           to="/admin/dashboard"
-           className={({ isActive }) =>
+            to="/admin/dashboard"
+            className={({ isActive }) =>
               `flex flex-col items-center ${
                 isActive
                   ? "bg-[#1B2340] text-orange-500"
@@ -49,28 +46,30 @@ function AdminNavbar() {
             <span className="text-sm mt-1">Sale</span>
           </NavLink>
 
-          <NavLink 
-           to="/admin/account"
-          className={({ isActive }) =>
+          <NavLink
+            to="/admin/account"
+            className={({ isActive }) =>
               `flex flex-col items-center ${
                 isActive
                   ? "bg-[#1B2340] text-orange-500"
                   : "text-gray-300 hover:bg-[#1B2340] hover:text-white"
               }`
-            }>
+            }
+          >
             <User size={26} />
             <span className="text-sm mt-1">Account</span>
           </NavLink>
 
           <NavLink
             to="/admin/settings"
-           className={({ isActive }) =>
+            className={({ isActive }) =>
               `flex flex-col items-center ${
                 isActive
                   ? "bg-[#1B2340] text-orange-500"
                   : "text-gray-300 hover:bg-[#1B2340] hover:text-white"
               }`
-            }>
+            }
+          >
             <Settings size={26} />
             <span className="text-sm mt-1">Settings</span>
           </NavLink>

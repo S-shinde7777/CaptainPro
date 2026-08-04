@@ -40,42 +40,39 @@ function LandingPage() {
 function App() {
   return (
     <Routes>
-
       <Route path="/" element={<LandingPage />} />
 
       <Route path="/login" element={<Login />} />
 
       <Route path="/register" element={<Register />} />
 
-       <Route path="/captain" element={<Captain />} />
+      <Route path="/captain" element={<Captain />} />
 
-       <Route path="/menu/:tableId" element={<Menu />} />
+      <Route path="/menu/:tableId" element={<Menu />} />
 
-       <Route path="/orders" element={<Orders />} />
-       
-       <Route path="/kots" element={<Kot />} />
+      <Route path="/orders" element={<Orders />} />
 
-       <Route path="/notifications" element={<Notification />} />
-       
-       <Route path="/kitchen" element={<KitchenHome />} />
+      <Route path="/kots" element={<Kot />} />
 
-       <Route path="/kitchen/preparing" element={<KitchenPreparing />}/>
+      <Route path="/notifications" element={<Notification />} />
 
-       <Route path="/kitchen/ready" element={<KitchenReady />}/>
+      <Route path="/kitchen" element={<KitchenHome />} />
 
-       <Route path="/kitchen/notification" element={<KitchenNotification />}/>
+      <Route path="/kitchen/preparing" element={<KitchenPreparing />} />
 
-       <Route path="/admin/dashboard" element={<Dashboard />} />
+      <Route path="/kitchen/ready" element={<KitchenReady />} />
 
-       <Route path="/admin/pending-bills" element={<PendingBills />}/>
-       <Route path="/admin/bills" element={ <Bills/>}/>
-       <Route path="/admin/kots" element={ <Kots/>}/>
-       <Route path="/admin/cash" element={ <SubmitCash/>}/>
-       <Route path="/admin/users" element={ <Users/>}/>
-       <Route path="/admin/masterdata" element={ <MasterData/>}/>
-       <Route path="/admin/account" element={ <Account/>}/>
+      <Route path="/kitchen/notification" element={<KitchenNotification />} />
 
+      <Route path="/admin/dashboard" element={<Dashboard />} />
 
+      <Route path="/admin/pending-bills" element={<PendingBills />} />
+      <Route path="/admin/bills" element={<Bills />} />
+      <Route path="/admin/kots" element={<Kots />} />
+      <Route path="/admin/cash" element={<SubmitCash />} />
+      <Route path="/admin/users" element={<Users />} />
+      <Route path="/admin/masterdata" element={<MasterData />} />
+      <Route path="/admin/account" element={<Account />} />
     </Routes>
   );
 }
