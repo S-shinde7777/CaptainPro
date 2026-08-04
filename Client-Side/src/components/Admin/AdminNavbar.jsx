@@ -35,7 +35,7 @@ function AdminNavbar() {
           </NavLink>
 
           <NavLink
-           to="/master-data"
+           to="/sale"
            className={({ isActive }) =>
               `flex flex-col items-center ${
                 isActive
@@ -49,7 +49,7 @@ function AdminNavbar() {
           </NavLink>
 
           <NavLink 
-           to="/master-data"
+           to="/account"
           className={({ isActive }) =>
               `flex flex-col items-center ${
                 isActive
@@ -62,7 +62,7 @@ function AdminNavbar() {
           </NavLink>
 
           <NavLink
-            to="/master-data"
+            to="/settings"
            className={({ isActive }) =>
               `flex flex-col items-center ${
                 isActive
