@@ -29,7 +29,7 @@ function AdminSidebar() {
     {
       name: "KOT's",
       icon: <ChefHat size={18} />,
-      path: "/admin/kot",
+      path: "/admin/kots",
     },
     {
       name: "Submit Cash",
