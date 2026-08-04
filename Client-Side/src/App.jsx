@@ -22,7 +22,7 @@ import PendingBills from "./pages/Admin/PendingBills";
 import Bills from "./pages/Admin/Bills";
 import Kots from "./pages/Admin/Kots";
 import SubmitCash from "./pages/Admin/SubmitCash";
-
+import Users from "./pages/Admin/Users";
 function LandingPage() {
   return (
     <>
@@ -69,6 +69,7 @@ function App() {
        <Route path="/admin/bills" element={ <Bills/>}/>
        <Route path="/admin/kots" element={ <Kots/>}/>
        <Route path="/admin/cash" element={ <SubmitCash/>}/>
+       <Route path="/admin/users" element={ <Users/>}/>
 
 
     </Routes>
