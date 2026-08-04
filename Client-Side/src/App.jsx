@@ -24,6 +24,7 @@ import Kots from "./pages/Admin/Kots";
 import SubmitCash from "./pages/Admin/SubmitCash";
 import Users from "./pages/Admin/Users";
 import MasterData from "./pages/Admin/MasterData";
+import Account from "./pages/Admin/Account";
 function LandingPage() {
   return (
     <>
@@ -72,6 +73,7 @@ function App() {
        <Route path="/admin/cash" element={ <SubmitCash/>}/>
        <Route path="/admin/users" element={ <Users/>}/>
        <Route path="/admin/masterdata" element={ <MasterData/>}/>
+       <Route path="/admin/account" element={ <Account/>}/>
 
 
     </Routes>

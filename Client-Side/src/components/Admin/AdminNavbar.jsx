@@ -36,7 +36,7 @@ function AdminNavbar() {
           </NavLink>
 
           <NavLink
-           to="/admin/sale"
+           to="/admin/dashboard"
            className={({ isActive }) =>
               `flex flex-col items-center ${
                 isActive
