@@ -21,9 +21,10 @@ function AdminNavbar() {
         {/* Menu */}
 
         <div 
-         to="/master-data"
         className="flex items-center gap-12">
-          <NavLink className={({ isActive }) =>
+          <NavLink 
+          to="/admin/masterdata"
+          className={({ isActive }) =>
               ` flex flex-col items-center ${
                 isActive
                   ? "bg-[#1B2340] text-orange-500"
@@ -35,7 +36,7 @@ function AdminNavbar() {
           </NavLink>
 
           <NavLink
-           to="/sale"
+           to="/admin/sale"
            className={({ isActive }) =>
               `flex flex-col items-center ${
                 isActive
@@ -49,7 +50,7 @@ function AdminNavbar() {
           </NavLink>
 
           <NavLink 
-           to="/account"
+           to="/admin/account"
           className={({ isActive }) =>
               `flex flex-col items-center ${
                 isActive
@@ -62,7 +63,7 @@ function AdminNavbar() {
           </NavLink>
 
           <NavLink
-            to="/settings"
+            to="/admin/settings"
            className={({ isActive }) =>
               `flex flex-col items-center ${
                 isActive

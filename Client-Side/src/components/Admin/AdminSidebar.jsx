@@ -44,19 +44,16 @@ function AdminSidebar() {
   ];
 
   return (
-    <aside className="w-64 bg-[#111A31] border-r border-slate-700 flex flex-col justify-between">
-
+    <aside className="w-64 h-full bg-[#111A31] border-r border-slate-700 flex flex-col justify-between">
       {/* Menu */}
 
       <div>
-
         {menu.map((item) => (
-
           <NavLink
             key={item.name}
             to={item.path}
             className={({ isActive }) =>
-              `flex items-center gap-3 px-5 py-4 border-b border-slate-700 transition
+              `flex items-center gap-3 px-6 py-4 border-b text-sm font-medium border-slate-700 transition-all
               ${
                 isActive
                   ? "bg-[#1B2340] text-orange-500 border-l-4 border-orange-500"
@@ -67,25 +64,16 @@ function AdminSidebar() {
             {item.icon}
             <span>{item.name}</span>
           </NavLink>
-
         ))}
-
       </div>
 
       {/* Upgrade Card */}
 
       <div className="border-t border-slate-700 p-6">
+        <div className="bg-[#1B2340] rounded-2xl p-5 text-center shadow-lg">
+          <Shield size={36} className="mx-auto text-orange-500 mb-3" />
 
-        <div className="bg-[#1B2340] rounded-xl p-5 text-center">
-
-          <Shield
-            size={36}
-            className="mx-auto text-orange-500 mb-3"
-          />
-
-          <h2 className="text-white text-lg font-bold">
-            Upgrade
-          </h2>
+          <h2 className="text-white text-lg font-bold">Upgrade</h2>
 
           <h3 className="text-2xl font-bold">
             Captain
@@ -106,11 +94,8 @@ function AdminSidebar() {
           >
             Upgrade
           </button>
-
         </div>
-
       </div>
-
     </aside>
   );
 }
